@@ -1,0 +1,96 @@
+
+body {
+	margin: 0;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	font-family: 
+}
+
+.navbar li {
+	float: left;
+}
+
+.navbar li a{
+
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	background-color: #758372;
+	color: #E7E7E7;
+	
+}
+
+.navbar-right a:hover {
+
+	background-color: #E7E7E7;
+	color: #758372;
+}
+
+.navbar.navbar-right{}
+
+
+.navbar.navbar-right.active {
+	color: white;
+}
+
+.navbar-left li {
+	float: left;
+}
+.navbar.navbar-left{}
+
+
+.active a {
+	background-color: #758372; 
+}
+.about.navbar li {
+	width: 33.333333333%;
+}
+.about.navbar a:hover {
+	background-color: #E7E7E7;
+	color: #758372;
+}
+
+.row {
+	width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/*The classes below this comment were taken from a template website.*/
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
